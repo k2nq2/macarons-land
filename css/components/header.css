@@ -184,6 +184,7 @@ header .old p:before {
     align-items: center;
     flex-direction: column;
     gap: 0.7rem;
+    left: calc(50% + 9.6rem);
 }
 .contup p{
     font-family: var(--font-family);
