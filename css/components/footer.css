@@ -1,0 +1,21 @@
+footer {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 143%;
+    padding-bottom: 18rem;
+    padding-top: 8rem;
+}
+
+footer .top-wrap {
+    margin-bottom: 5rem;
+    color: #000;
+}
+
+footer .bottom-wrap {
+    color: #949494;
+}
+footer .top-wrap a{
+    text-decoration: underline;
+    display: inline;
+}

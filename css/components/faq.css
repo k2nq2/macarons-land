@@ -1,0 +1,67 @@
+.FAQ .title {
+    margin-bottom: 5rem;
+}
+
+.FAQ .accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.FAQ .accordion-item {
+    transition: max-height 0.4s ease-out;
+    padding: 1.8rem 6rem 1.8rem 2.5rem;
+    border-top: 1px solid #dedede;
+}
+
+.FAQ .accordion-header {
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.FAQ .accordion-header:before {
+    content: '';
+    display: inline-block;
+    right: -4rem;
+    top: 0.5rem;
+    width: 2.7rem;
+    height: 1.5rem;
+    position: absolute;
+    background-image: url(../../images/accordeon-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.FAQ .accordion-header p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #B0C546;
+}
+
+.FAQ .active .accordion-header:before {
+    background-image: url(../../images/accordeon-active.svg);
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.FAQ .active .accordion-content {
+    max-height: 50rem;
+}
+
+.FAQ .accordion-content {
+    overflow: hidden;
+    padding: 0;
+    max-height: 0;
+}
+
+.FAQ .accordion-content p {
+    padding-top: 1.3rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 129%;
+    color: #000;
+}

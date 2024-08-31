@@ -1,0 +1,92 @@
+.component-4 {
+    background-image: url(../../images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-bottom: 10rem;
+}
+
+.component-4 .title {
+    margin-bottom: 6rem;
+}
+
+.component-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5.2rem;
+    column-gap: 4rem;
+}
+
+.component-4 li:nth-child(1) {
+    width: 9.6rem;
+}
+
+.component-4 li:nth-child(2) {
+    width: 12.2rem;
+}
+
+.component-4 li:nth-child(3) {
+    width: 9.6rem;
+}
+
+.component-4 li:nth-child(4) {
+    width: 12.2rem;
+}
+
+.component-4 li span {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 71%;
+    text-transform: uppercase;
+    background: radial-gradient(77.43% 93.71% at 75.89% 25.41%, rgb(255, 255, 255) 0%, #FF6B00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.component-4 li p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+}
+.component-4 .what-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.component-4 .what-item{
+    background-image: url(../../images/c4-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 37rem;
+    height: 15rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    padding-left: 2.8rem;
+}
+.component-4 .what-item:nth-child(2){
+    background-image: url(../../images/c4-2.png);
+}
+.component-4 .what-item:nth-child(3){
+    background-image: url(../../images/c4-3.png);
+}
+.component-4 .what-item:nth-child(4){
+    background-image: url(../../images/c4-4.png);
+}
+.component-4 .what-item:nth-child(5){
+    background-image: url(../../images/c4-5.png);
+}
+.component-4 .what-item p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 137%;
+    color: #fff;
+}

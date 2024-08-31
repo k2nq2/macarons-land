@@ -1,0 +1,64 @@
+.component-2 {
+    background-image: url(../../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.component-2 .title {
+    margin-bottom: 5rem;
+}
+
+.component-2 .top-1-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff6b00;
+}
+
+.component-2 .top-2-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-bottom: 3rem;
+}
+
+.component-2 .cont-2-img {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.component-2 .bottom-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #000;
+}
+.component-2 .for-whom-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+.component-2 .for-whom-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.component-2 .for-whom-item p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #000;
+}

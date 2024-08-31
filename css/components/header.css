@@ -1,0 +1,200 @@
+header {
+    background-image: url(../../images/bg1.jpg);
+    background-size: contain;
+    padding-top: 2.7rem;
+    background-repeat: no-repeat;
+    height: 90.2rem;
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    margin-bottom: 1.4rem;
+}
+
+header .hero {
+    width: 100%;
+    border-radius: 6.8rem;
+    margin-bottom: 3rem;
+    pointer-events: none;
+}
+
+header .hero-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+header .special-text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 175%;
+    text-transform: uppercase;
+    text-align: center;
+    background: radial-gradient(172.92% 105.12% at 52.38% 28.17%, #E4C597 0%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+}
+
+header .header-bottom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .price-wrap {
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+    margin-bottom: 1.8rem;
+}
+
+header .new p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 72%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3f3f3f;
+}
+
+header .new span {
+    font-size: 5.5rem;
+    color: #ea5f10;
+}
+
+
+header .old p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 45%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #767676;
+    position: relative;
+}
+
+header .old span {
+    font-size: 4rem;
+}
+
+header .old p:before {
+    content: "";
+    height: 0.1rem;
+    width: 7.8rem;
+    transform: rotate(0deg);
+    background: #767676;
+    display: block;
+    position: absolute;
+
+    bottom: 1rem;
+}
+.date-div{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15rem;
+    width: 15rem;
+    height: 21.8rem;
+    background: radial-gradient(55.45% 129.03% at 53.12% 21%, rgba(255, 255, 225, 1) -100%, rgba(176, 197, 70, 1) 100%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    gap: 2rem;
+    position: relative;
+    z-index: -2;
+}
+.date-title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 57%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF7DC;
+    margin-top: 0.5rem;
+}
+.date-block{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 71%;
+    text-align: center;
+    color: #fff;
+}
+.uptext{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #606060;
+    margin-bottom: 2.1rem;
+    margin-top: 9.1rem;
+}
+.downtext{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #484848;
+    margin-bottom: 7rem;
+}
+.pers{
+    position: absolute;
+    top: 2.1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    width: 100%;
+}
+.under{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #484848;
+    margin-top: 2.7rem;
+}
+.contup{
+    width: 8.4rem;
+    height: 8.4rem;
+    z-index: 10;
+    position: fixed;
+    bottom: 12.3rem;
+    right: 3.6rem;
+    background: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(1.5rem);
+    -webkit-backdrop-filter: blur(1.5rem);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.contup p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 0.8rem;
+line-height: 225%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+text-align: center;
+color: #4d4d4d;
+}
+.cont-up{
+    display: none;
+}

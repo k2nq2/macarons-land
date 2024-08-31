@@ -1,0 +1,81 @@
+.component-3 {
+    background-image: url(../../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-position-y: 10rem;
+}
+
+.component-3 .title {
+    margin-bottom: 51.03rem;
+}
+
+.component-3 .author-name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 137%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #b0c546;
+    margin-bottom: 3.5rem;
+}
+
+.component-3 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.component-3 li {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.component-3 li:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0.45rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-image: url(../../images/author-list-mark.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.component-3 .end-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+    margin-top: 4rem;
+    padding-bottom: 3.4rem;
+}
+.component-3 .bottom-author{
+    width: 42.8rem;
+    height: 31.7rem;
+    background: radial-gradient(55.45% 129.03% at 53.12% 21%, rgba(255, 255, 225, 0.6) -100%, rgba(176, 197, 70, 1) 100%);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 4rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 137%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}

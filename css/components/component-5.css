@@ -1,0 +1,225 @@
+.component-5 {
+    margin-top: -13rem;
+}
+
+.component-5 .title {
+    margin-bottom: 38.4rem;
+}
+.program {
+    margin-bottom: 11.9rem;
+    padding-top: 5rem;
+    border-radius: 40px;
+    background: radial-gradient(55.45% 129.03% at 53.12% 21%, rgba(255, 255, 225, 0.5) -100%, rgba(176, 197, 70, 1) 100%);
+    color: #fff;
+}
+
+.program .container {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+}
+
+.program h3 {
+    color: #fff;
+}
+
+.program .subtitle {
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e8f3ab;
+}
+
+.program .program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 5rem;
+    color: #000;
+    overflow: hidden;
+    max-height: 96.7rem;
+}
+
+.program .collapse {
+    max-height: 461.9rem;
+}
+.program .program-title{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 1.6rem;
+line-height: 125%;
+color: #b0c546;
+margin-top: 3.3rem;
+}
+.program .program-spec{
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+
+}
+.program .program-spec img{
+    padding-top: 0.2rem;
+}
+.program .program-list li {
+    padding: 3.62rem 3rem 5rem 3rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 15px 100px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+.program .program-list ol li {
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    list-style-type: disc;
+}
+.program .program-list ol li::marker{
+    font-size: 1.1rem;
+}
+.program .program-list ol li ul li {
+    list-style-type: disc;
+}
+.program .program-list ol li ul li::marker {
+    font-size: 0.7rem;
+}
+.program .program-list ol li ul{
+    padding-left: 1.5rem;
+}
+.program .program-list ol{
+    gap: 1rem;
+    display: grid;
+    padding-left: 2rem;
+    padding-top: 3.3rem;
+}
+
+
+.program .program-list .item-header {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.program .program-list .item-header-left {
+    display: flex;
+    gap: 1.14rem;
+}
+.program .program-list .item-header-left img{
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+.program .program-list .module {
+    background: #B0C546;
+    border-radius: 150px;
+    width: 15.1rem;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.program .program-list .module-bonus {
+    background: linear-gradient(201deg, #fff2af 0%, #efd4a0 100%), radial-gradient(55.45% 129.03% at 53.12% 21%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    border-radius: 150px;
+    width: 13.1rem;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6c623c;
+    margin-top: 2.9rem;
+    margin-bottom: 2.1rem;
+}
+
+.program .program-list .bonus-module {
+    width: 22.7rem;
+    box-shadow: 0 15px 100px 0 rgba(0, 0, 0, 0.05);
+    background: #ffeeb4;
+    margin-top: 0.54rem;
+    margin-bottom: 2.8rem;
+}
+
+.program .program-list .module-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-transform: uppercase;
+    color: #eb5658;
+    margin-left: 1.4rem;
+}
+
+.program .program-list .item-header-img {
+    width: 8.5rem;
+    height: 8.5rem;
+}
+
+.program .program-list .item-text {
+    margin-top: 3rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+}
+
+
+.program .open-program-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(4rem);
+    cursor: pointer;
+}
+
+.program .open-program-btn .program-btn-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 125%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.program .open-program-btn .program-btn-img {
+    width: 7.4rem;
+}
+.price{
+    background-image: url(../../images/price.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 42.9rem;
+    height: 42.5rem;
+}
+.price-title{
+    color: #fff;
+    padding-top: 3.5rem;
+}
+.price-btn{
+    width: 37rem;
+    height: 9rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2rem;
+}
